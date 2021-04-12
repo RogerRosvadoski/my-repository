@@ -1,2 +1,1 @@
-# my-repository
-Esse é o meu repositório
+Esse é um countdown para o ano-novo feito em JavaScript.

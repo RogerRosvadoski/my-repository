@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <p id="change">"Texto Inicial"</p>
+    <!-- Iniciando o JS-->
+    <button onclick="document.getElementById('change').innerHTML = 'Hello World JavaScript'">Clique aqui para interagir com a página</button>
+
+    <h1> Ano Novo em:</h1>
+    <div class="countdown-container">
+        <div class="countdown-el days-c">
+            <p class="text" id="days">0</p>
+            <span>Dias</span>
+        </div>
+        <!--countdown-el days-c-->
+        <div class="countdown-el hours-c">
+            <p class="text" id="hours">0</p>
+            <span>Horas</span>
+
+        </div>
+        <!--countdown-el hours-c-->
+        <div class="countdown-el mins-c">
+            <p class="text" id="mins">0</p>
+            <span>Minutos</span>
+
+        </div>
+        <!--countdown-el minu-c-->
+        <div class="countdown-el secs-c">
+            <p class="text" id="secs">0</p>
+            <span>Segundos</span>
+
+        </div>
+        <!--countdown-el secs-c-->
+    </div>
+    <!--countdown-container-->
+
+
+</body>
+
+</html>
